@@ -21,7 +21,7 @@ const char* get_account_url() {
     }
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     gfxInitDefault();
     consoleInit(GFX_TOP, NULL);
     
